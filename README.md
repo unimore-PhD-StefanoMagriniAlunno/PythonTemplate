@@ -38,30 +38,30 @@ Repository template for python projects
   
   Notebook suite:
   ```bash
-  pdm install jupyter ipykernel notebook jupyterlab nbconvert
+  pdm add jupyter ipykernel notebook jupyterlab nbconvert
   ```
   
   Data management suite:
   ```bash
-  pdm install pandas numpy
+  pdm add pandas numpy
   ```
 
   Data visualisation suite:
   ```bash
-  pdm install matplotlib seaborn plotly
+  pdm add matplotlib seaborn plotly
   ```
   
   Scientific calculus suite:
   ```bash
-  pdm install scipy sympy scikit-learn statsmodels
+  pdm add scipy sympy scikit-learn statsmodels
   ```
 
   GPU NVIDIA boost suite:
   ```bash
-  pdm install pytorch cudf cupy rapids
+  pdm add pytorch cudf cupy rapids
   ```
 
   Big Data suite:
   ```bash
-  pdm install dask pyarrow fastparquet tensorflow
+  pdm add dask pyarrow fastparquet tensorflow
   ```
