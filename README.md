@@ -32,3 +32,36 @@ Repository template for python projects
   git pull
   git push
   ```
+
+### Data Science suite
+  This is a list of packages for data science studies.
+  
+  Notebook suite:
+  ```bash
+  pdm install jupyter ipykernel notebook jupyterlab nbconvert
+  ```
+  
+  Data management suite:
+  ```bash
+  pdm install pandas numpy
+  ```
+
+  Data visualisation suite:
+  ```bash
+  pdm install matplotlib seaborn plotly
+  ```
+  
+  Scientific calculus suite:
+  ```bash
+  pdm install scipy sympy scikit-learn statsmodels
+  ```
+
+  GPU NVIDIA boost suite:
+  ```bash
+  pdm install pytorch cudf cupy rapids
+  ```
+
+  Big Data suite:
+  ```bash
+  pdm install dask pyarrow fastparquet tensorflow
+  ```
