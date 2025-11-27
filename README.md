@@ -1,5 +1,5 @@
-# SciML
-little repo with Scientific Machine Learning experiments
+# Python Template
+Repository template for python projects
 
 ## Get start
 ### Requirements
