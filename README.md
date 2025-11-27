@@ -26,17 +26,8 @@ little repo with Scientific Machine Learning experiments
   cd PythonTemplate
   pdm init
   ```
-  follow the procedure
+  follow the procedures, then:
   ``` bash
-  pdm install
+  pdm add pre-commit black mypy pytest
   pdm run pre-commit install
-  ```
-### Issues
-  If you have more version of python in your system, it's possible read the following **WARNING**:
-  ```bash
-  WARNING: Project requires a python version of ==3.10.*, The virtualenv is being created for you as it cannot be matched to the right version.
-  ```
-  Check the version of used python with:
-  ```bash
-  pdm info
   ```

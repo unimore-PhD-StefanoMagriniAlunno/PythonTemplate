@@ -1,0 +1,19 @@
+[project]
+name = "TestTemplate"
+version = "0.1.0"
+description = "Test template"
+authors = [
+    {name = "unimore-PhD-StefanoMagriniAlunno", email = "376971@studenti.unimore.it"},
+]
+dependencies = ["pre-commit>=4.5.0", "black>=25.11.0", "mypy>=1.18.2", "pytest>=9.0.1"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
