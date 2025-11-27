@@ -12,7 +12,7 @@ Repository template for python projects
     git --version
     pdm --version
     ```
-### Download and installation
+### Project Initialization
   Use this template to make a new repository, and clone it in your device.
 
   Initialize your project with `pdm`:
@@ -23,4 +23,12 @@ Repository template for python projects
   ``` bash
   pdm add pre-commit black mypy pytest
   pdm run pre-commit install
+  ```
+### Test
+  Test your repository with your first commit:
+  ```bash
+  git add .
+  git commit -m "Project initialization"
+  git pull
+  git push
   ```
