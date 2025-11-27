@@ -56,12 +56,7 @@ Repository template for python projects
   pdm add scipy sympy scikit-learn statsmodels
   ```
 
-  GPU NVIDIA boost suite:
+  GPU boost suite:
   ```bash
-  pdm add pytorch cudf cupy rapids
-  ```
-
-  Big Data suite:
-  ```bash
-  pdm add dask pyarrow fastparquet tensorflow
+  pdm add torch tensorflow
   ```
