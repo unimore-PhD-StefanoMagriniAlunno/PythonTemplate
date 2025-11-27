@@ -7,23 +7,16 @@ Repository template for python projects
     ```bash
     cat /etc/os-release
     ```
-  - **Nvidia CUDA Toolkit 12.4**
-    ```bash
-    nvidia-smi
-    ```
-  - **Python version 3.10**
-    ```bash
-    python3 --version
-    ```
   - **Other installations:**
     ```bash
     git --version
     pdm --version
     ```
 ### Download and installation
+  Use this template to make a new repository, and clone it in your device.
+
+  Initialize your project with `pdm`:
   ```bash
-  git clone https://github.com/unimore-PhD-StefanoMagriniAlunno/PythonTemplate
-  cd PythonTemplate
   pdm init
   ```
   follow the procedures, then:
